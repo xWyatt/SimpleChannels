@@ -1,0 +1,22 @@
+main: com.wyattteeter.SimpleChannels.SimpleChannels
+name: SimpleChannels
+version: 1.0.0
+description: Allows for simple permission-based chat channels
+authors: [xWyatt]
+website: http://github.com/xWyatt/SimpleChannels
+api-version: 1.16
+commands:
+  sc:
+    description: Chat in the specified channel
+    usage: "Usage: /<command> [<channel>|list|reload] [<message>]"
+    aliases: [chat, simplechannels]
+permissions:
+  simplechannels.list:
+    description: Shows the list of registered channels
+    default: op
+  simplechannels.default:
+    description: Allows user to chat in the default channel
+    default: op
+  simplechannels.reload:
+    description: Allows user to reload the configuration
+    default: op

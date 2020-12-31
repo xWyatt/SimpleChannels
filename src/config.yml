@@ -1,0 +1,14 @@
+channels:
+   # Default channel. Will persist even if removed from the config
+   # Permission to send/recieve messages would be 'simplechannels.default'
+   default:
+      prefix: "&8Chat: "     # Prefix for the message (before the username)
+      seperator: ": "        # Seperator between the username and chat message
+      chatcolor: "&f"        # Color for the chat message
+      hideChannelName: false # When true, will not displays the channel name in the chat message
+   # Example 'staff' channel. Permission to send/recieve messages would be 'simplechannels.staff'
+   staff:
+      prefix: "&4Staff&8 "
+      seperator: ": "
+      chatcolor: "&e"
+      hideChannelName: true
